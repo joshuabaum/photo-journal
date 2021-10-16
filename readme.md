@@ -1,1 +1,1 @@
-initial commit
+# Joshua Baum's Photography Website.
