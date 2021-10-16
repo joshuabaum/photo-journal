@@ -1,17 +1,71 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+function home(){
+	window.location.href = 'index.html';
+}
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+function people(){
+	window.location.href = 'people.html';
+}
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+function street(){
+	window.location.href = 'street.html';
+}
+
+function fav(){
+	window.location.href = 'favorites.html';
+}
+
+function series(){
+	window.location.href = 'series.html';
+}
+
+function about(){
+	window.location.href = 'about.html';
+}
+
+function green(){
+	window.location.href = 'green.html';
+}
+
+function college1(){
+	window.location.href = 'college1.html';
+}
+
+function college2(){
+	window.location.href = 'college2.html';
+}
+
+function college3(){
+	window.location.href = 'college3.html';
+}
+
+function college4(){
+	window.location.href = 'college4.html';
+}
+
+function maybe(){
+	window.location.href = 'maybe.html';
+}
+
+//this part allows lower res images to load first then they are replaced gradually by the higher res images
+images = document.getElementsByClassName("img");
+highResRun = 0;
+function higherRes(){
+	if(highResRun == 0){
+		for(i=0, len = images.length; i<len; i++){
+			var newSrc = images[i].src.split("/");
+			targetSrc = newSrc.length;
+			newSrc = newSrc[targetSrc-1].slice(5);
+			//alert(newSrc);
+			images[i].src= newSrc;
+		}
+		highResRun += 1;
+	}
+	else{};
+};
+
+function homeHigherRes(){
+	background = document.getElementsById("body");
+	var newSrc = images[i].src.split("/");
+	targetSrc = newSrc.length;
+	newSrc = newSrc[targetSrc-1].slice(5);
+}
