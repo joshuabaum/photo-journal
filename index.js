@@ -6,6 +6,10 @@ function people(){
 	window.location.href = 'people.html';
 }
 
+function grand() {
+	window.location.href = 'grand.html';
+}
+
 function street(){
 	window.location.href = 'street.html';
 }
