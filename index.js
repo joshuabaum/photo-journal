@@ -50,6 +50,11 @@ function maybe(){
 	window.location.href = 'maybe.html';
 }
 
+
+function pax_amer(){
+	window.location.href = 'pax_amer.html';
+}
+
 //this part allows lower res images to load first then they are replaced gradually by the higher res images
 images = document.getElementsByClassName("img");
 highResRun = 0;
