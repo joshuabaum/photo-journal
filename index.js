@@ -1,3 +1,7 @@
+function artifacts(){
+	window.location.href = 'artifacts.html';
+}
+
 function home(){
 	window.location.href = 'index.html';
 }
