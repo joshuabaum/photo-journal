@@ -1,3 +1,7 @@
+function sarah(){
+	window.location.href = 'sarah.html';
+}
+
 function artifacts(){
 	window.location.href = 'artifacts.html';
 }
