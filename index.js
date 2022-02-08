@@ -1,3 +1,11 @@
+function sarah(){
+	window.location.href = 'sarah.html';
+}
+
+function artifacts(){
+	window.location.href = 'artifacts.html';
+}
+
 function home(){
 	window.location.href = 'index.html';
 }
@@ -48,6 +56,11 @@ function college4(){
 
 function maybe(){
 	window.location.href = 'maybe.html';
+}
+
+
+function pax_amer(){
+	window.location.href = 'pax_amer.html';
 }
 
 //this part allows lower res images to load first then they are replaced gradually by the higher res images

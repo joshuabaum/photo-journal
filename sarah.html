@@ -1,0 +1,38 @@
+<html class="bck1" id="html">
+	<head>
+	<link rel="stylesheet" type="text/css" href="pages.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="pages.js"></script>
+	</head>
+	
+	<title> Joshua Baum Photography </title>
+	
+	<body class="bck1" id="body">
+
+		<div class="pages">
+			<ul class="nav-bar-2">
+				<li onclick="home()">&lt-- home</li>
+				</ul>
+		</div>
+		
+		<div class="photos">
+            <h2> Some photos taken a long time ago of my late Grandma Sarah </h2>
+			<ul class="photo-list">
+				
+				<li class="photo-container-wide"> <img src="pictures/series/sarah/santa_monica.jpg"  class="img-wide"> </li>
+                <li class="photo-container-wide"> <img src="pictures/series/sarah/taste_test.jpg"  class="img-wide"> </li>
+                <li class="photo-container-wide"> <img src="pictures/series/sarah/together_house.jpg"  class="img-wide"> </li>
+                <li class="photo-container-wide"> <img src="pictures/series/sarah/mirror_love.JPG"  class="img-wide"> </li>
+                <li class="photo-container-wide"> <img src="pictures/series/sarah/friends.jpg"  class="img-wide" > </li>
+				<li class="photo-container-tall"> <img src="pictures/series/sarah/pearls.jpg" class="img-tall"> </li>
+				<li class="photo-container-tall"> <img src="pictures/series/sarah/red_tree.jpg" class="img-tall" onload="higherRes()"> </li>
+			</ul>
+		</div>
+
+		<script type="text/javascript">
+			higherRes();
+		</script>
+
+	</body>
+</html>
