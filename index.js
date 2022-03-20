@@ -1,3 +1,7 @@
+function music() {
+	window.location.replace("https://open.spotify.com/playlist/5fMz4zWOWqgEuBiApu8YPn?si=f5ea12fc6b3d43c4");
+}
+
 function small_people() {
 	window.location.href = 'small_people.html';
 }
