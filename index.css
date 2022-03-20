@@ -1,7 +1,7 @@
 html, body{
 	margin:0px; 
 	padding:0px;
-	background-color: rgba(107, 102, 79);	
+	background-color:  rgba(41, 34, 28);	
 	/*background-image: url("mini_R34.jpg");*/
 	background-repeat: no-repeat;
 	background-position: center;
@@ -16,7 +16,7 @@ html, body{
 	white-space: nowrap;
 	vertical-align: bottom;
 	text-align: center;
-	background-color:rgba(227, 213, 157);
+	background-color: rgba(87, 73, 61);
 	display: flex;
 }
 
@@ -30,6 +30,19 @@ html, body{
 	align-self: flex-end;	
 }
 
+.section-header-div {
+	font-family: 'Lato', sans-serif;
+	color: white;
+	display: inline-block;
+	vertical-align: center;
+}
+
+.section-header{
+	/* width : calc(100%); */
+	font-size:2.5vw;
+	margin-top: calc(30%);
+	margin-bottom: calc(5%);
+}
 
 .photo{
 	color:rgb(174,170,176);
@@ -53,6 +66,7 @@ html, body{
 	padding-left: 0;
 	padding-right: 0;
 	padding-top: calc(1%);
+	margin-top: 0;
 	list-style-type: square;
 	text-align: center;
 	vertical-align: center;
@@ -95,51 +109,6 @@ html, body{
 	/* background: rgb(74,70,76); */
 	color: rgba(227, 213, 157);	
 }
-
-/* .nav-bar{
-	padding: 0;
-	padding-top: calc(15%);
-	display: flex;
-	list-style-type: none;
-	text-align: center;
-	vertical-align: center;
-	font-size: 2.25vmax;
-}
-
-.nav-bar li{
-	text-align: center;
-	width: calc(33.33%);
-	margin: 0em;
-	display: inline-block;
-	font-family: 'Lato', sans-serif;
-	font-size: 1.5em;
-	color:white;
-}
- 
-.nav-bar li:hover { 
-	cursor: crosshair;
-	transition: background 1s ease 0s;	
-	background: rgb(74,70,76);
-	color: black;
-} */
-
-/* .abstract li{
-	text-align: center;
-	width: calc(25%);
-	margin: 0em;
-	display: inline-block;
-	font-family: 'Lato', sans-serif;
-	font-size: 1.5em;
-	color:white;
-}
-
-.abstract li:hover { 
-	cursor: crosshair;
-	transition: background 0.5s ease 0s;	
-	background: rgb(74,70,76);
-	color: black;
-} */
-
 
 @media screen and (max-width: 1000px) {
 	.header-text{

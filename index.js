@@ -1,3 +1,7 @@
+function small_people() {
+	window.location.href = 'small_people.html';
+}
+
 function sarah(){
 	window.location.href = 'sarah.html';
 }

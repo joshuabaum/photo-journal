@@ -4,7 +4,7 @@ html, body{
     max-width: 100%;
     max-height: 100%;
     overflow-x: hidden;
-	background-color:  rgba(107, 102, 79);	
+	background-color: rgba(41, 34, 28);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size:cover;
@@ -12,7 +12,7 @@ html, body{
 
 /* linkes to navigate to different pages*/
 .pages {
-	background: rgba(184, 174, 174, 0.164);
+	background: rgba(87, 73, 61);
     padding: 0;
 	margin: 0px;
 	width: calc(100%);
