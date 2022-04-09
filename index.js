@@ -62,6 +62,10 @@ function college4(){
 	window.location.href = 'college4.html';
 }
 
+function college4hosp(){
+	window.location.href = 'college4_hosp.html';
+}
+
 function maybe(){
 	window.location.href = 'maybe.html';
 }
