@@ -75,6 +75,12 @@ function pax_amer(){
 	window.location.href = 'pax_amer.html';
 }
 
+function uc_berkeley(){
+	window.location.href = 'uc_berkeley.html';
+}
+
+//Following code has been depricated because I'm just gonna make all photos 4mb or smaller lol
+
 //this part allows lower res images to load first then they are replaced gradually by the higher res images
 images = document.getElementsByClassName("img");
 highResRun = 0;
