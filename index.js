@@ -78,8 +78,13 @@ function pax_amer(){
 function uc_berkeley(){
 	window.location.href = 'uc_berkeley.html';
 }
+
 function michaelseh() {
-	window.location.href = 'https://michaelseh.com/';
+	window.location.replace("https://michaelseh.com/");
+}
+
+function silver() {
+	window.location.href = 'silverlake.html';
 }
 
 //Following code has been depricated because I'm just gonna make all photos 4mb or smaller lol
