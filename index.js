@@ -91,6 +91,10 @@ function la() {
 	window.location.href = 'la.html';
 }
 
+function france() {
+	window.location.href = 'france.html';
+}
+
 //Following code has been depricated because I'm just gonna make all photos 4mb or smaller lol
 
 //this part allows lower res images to load first then they are replaced gradually by the higher res images
