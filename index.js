@@ -95,6 +95,14 @@ function france() {
 	window.location.href = 'france.html';
 }
 
+function hk() {
+	window.location.href = 'hk.html';
+}
+
+function tokyo() {
+	window.location.href = 'tokyo.html';
+}
+
 //Following code has been depricated because I'm just gonna make all photos 4mb or smaller lol
 
 //this part allows lower res images to load first then they are replaced gradually by the higher res images
