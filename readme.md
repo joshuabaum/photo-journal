@@ -1,1 +1,1 @@
-# Joshua Baum's Photography Website.
+# This is where I organize my favorite photos
